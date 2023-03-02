@@ -1,20 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T06:56:42.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.6.2" etag="H85QW_s484GONY3Y2qS4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-02T07:11:08.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.6.2" etag="lzhKICF3rr0tAPq_k_CB" type="github">
   <diagram id="qKa6MyCNjmFO1Zgiebp7" name="第 1 页">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-2" target="R4tpUfyN2Cm-w9piKVZH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="R4tpUfyN2Cm-w9piKVZH-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="50" width="220" height="280" as="geometry" />
         </mxCell>
         <mxCell id="R4tpUfyN2Cm-w9piKVZH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="55" width="220" height="270" as="geometry" />
+          <mxGeometry x="410" y="55" width="220" height="270" as="geometry" />
         </mxCell>
         <mxCell id="R4tpUfyN2Cm-w9piKVZH-5" value="机房A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="15" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R4tpUfyN2Cm-w9piKVZH-6" value="机房B" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-7" target="R4tpUfyN2Cm-w9piKVZH-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-7" value="APP/PC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-9" target="R4tpUfyN2Cm-w9piKVZH-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-9" value="redis单机，哨兵，主从" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="270" />
+              <mxPoint x="220" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-11" value="RDB文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-13" value="持久化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.009;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.015;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-3" target="R4tpUfyN2Cm-w9piKVZH-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="270" as="sourcePoint" />
+            <mxPoint x="430" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-17" value="专缆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-19" target="R4tpUfyN2Cm-w9piKVZH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-19" value="远程本地目录，RDB文件备份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4tpUfyN2Cm-w9piKVZH-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="517" y="5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-20" value="redis单机，哨兵，主从" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="206" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-22" value="导入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-25" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4tpUfyN2Cm-w9piKVZH-26" value="等待服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="70" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
